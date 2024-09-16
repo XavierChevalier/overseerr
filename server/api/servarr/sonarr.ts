@@ -240,7 +240,7 @@ class SonarrAPI extends ServarrBase<{
           seasonFolder: options.seasonFolder,
           monitored: options.monitored,
           rootFolderPath: options.rootFolderPath,
-          seriesType: 'standard',
+          seriesType: options.seriesType,
           addOptions: {
             ignoreEpisodesWithFiles: true,
             searchForMissingEpisodes: options.searchNow,
